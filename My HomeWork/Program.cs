@@ -47,3 +47,73 @@ else
 }
 Console.WriteLine($"Maximum number is {Maximum}");
 */
+
+//Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без
+
+/*
+Console.Write("Imput number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number % 2 ==0)
+{
+    Console.WriteLine($"{number} is an even number!");
+}
+else
+{
+    Console.WriteLine($"{number} is not an even number!");
+}
+*/
+
+//Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+/*
+Console.Write("Imput number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int current = 2;
+
+while(current<=number)
+{
+    Console.WriteLine(current);
+    current = current + 2;
+}
+*/
+
+/*
+Console.Write("Imput number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int current = 1;
+
+while(current <= number)
+{
+    if(number % 2 == 0) 
+    {
+        Console.WriteLine(current);
+        current ++;
+    }
+    else 
+    {
+        current ++;
+    }
+}
+*/
+/*
+Console.Write("Input number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int current = 0;
+
+while(current <= number)
+{
+    if(number % 2 == 0)
+    {
+        Console.WriteLine($"{current} четное");
+        current++;
+
+    }
+    else
+    {
+        Console.WriteLine($"{current} нечетное");
+        current++;
+    }
+}
+*/
