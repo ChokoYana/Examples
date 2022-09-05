@@ -34,7 +34,11 @@ void IntersectionPoint(double a1, double c1, double a2, double c2)
 {
     double x = (a2 - a1) / (c1 - c2);
     double y = c1 * (a2 - a1) / (c1 - c2) + a1;
-    Console.WriteLine($"точки пересечения ({x}, {y})");
+    if(a1 == a2)
+        Console.WriteLine($"точки пересечения параллельны");
+    else
+        Console.WriteLine($"точки пересечения ({x}, {y})");
+
 }
 
 
