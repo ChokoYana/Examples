@@ -78,7 +78,7 @@ void ShowElementOfArray(int[,] array)
     int m = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Input colums-position of tne number: ");
     int n = Convert.ToInt32(Console.ReadLine());
-    if(m <= array.GetLength(0) && n <= array.GetLength(1))
+    if(m = array.GetLength(0) && n = array.GetLength(1))
     {
         int el = array[m - 1,n - 1];
         Console.WriteLine($"Ellement of {m} rows and {n} columns: {el}");
