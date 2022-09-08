@@ -45,7 +45,7 @@ ShowArray2(newArray); */
 // Напишите программу, которая на вход принимает позиции элемента в двумерном массиве,
 // и возвращает значение этого элемента или же указание, что такого элемента нет.
 
-/*
+
 int[,] CreateRandom2Array(int rows, int columns, int minValue, int maxValue)
 {
     int[,] newArray = new int[rows, columns];
@@ -78,7 +78,7 @@ void ShowElementOfArray(int[,] array)
     int m = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Input colums-position of tne number: ");
     int n = Convert.ToInt32(Console.ReadLine());
-    if(m = array.GetLength(0) && n = array.GetLength(1))
+    if(m - 1 <= array.GetLength(0) && n - 1 <= array.GetLength(1))
     {
         int el = array[m - 1,n - 1];
         Console.WriteLine($"Ellement of {m} rows and {n} columns: {el}");
@@ -100,7 +100,6 @@ int max = Convert.ToInt32(Console.ReadLine());
 int[,] newArray = CreateRandom2Array(m, n, min, max);
 ShowArray2(newArray);
 ShowElementOfArray(newArray); 
-*/
 
 
 // Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
