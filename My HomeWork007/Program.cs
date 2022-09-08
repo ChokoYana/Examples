@@ -104,7 +104,7 @@ ShowElementOfArray(newArray);
 
 
 // Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
-
+/*
 int[,] CreateRandom2Array(int rows, int columns, int minValue, int maxValue)
 {
     int[,] newArray = new int[rows, columns];
@@ -158,4 +158,4 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int[,] newArray = CreateRandom2Array(m, n, min, max);
 ShowArray2(newArray);
-AverageNumbersOf(newArray);
+AverageNumbersOf(newArray); */
